@@ -22,6 +22,13 @@ ALLOWED_HOSTS = []
 
 # Application definition
 
+LOCAl_APPS = [
+    'accounts',
+    'meetings',
+    'messages,',
+    'polls',
+]
+
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -29,7 +36,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-]
+] + LOCAl_APPS
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
