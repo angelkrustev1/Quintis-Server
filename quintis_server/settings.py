@@ -25,7 +25,6 @@ ALLOWED_HOSTS = []
 LOCAl_APPS = [
     'accounts',
     'meetings',
-    'messages,',
     'polls',
 ]
 
